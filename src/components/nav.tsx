@@ -32,7 +32,7 @@ const Nav = () => {
 
 	return (
 		<div className="">
-			<nav className="flex gap-8 xl:py-8">
+			<nav className="flex gap-8 xl:py-5 text-[#ffffff]">
 				{links.map((link, index) => {
 					return (
 						<div key={index}>

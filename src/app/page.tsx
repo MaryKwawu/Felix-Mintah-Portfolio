@@ -12,11 +12,13 @@ export default function Home() {
 				<div className="flex flex-col xl:flex-row items-center justify-between xl:pt-0 xl:pb-10">
 					{/* text */}
 					<div className="text-center xl:text-left order-2 xl:order-none">
-						<span className="text-xl">Customer Develpment IT Manager</span>
-						<h1 className="h1 mb-6">
+						<span className="text-xl text-[#ffffff]">
+							Customer Develpment IT Manager
+						</span>
+						<h1 className="h1 mb-6 text-[#ffffff]">
 							Hello I'm <br /> <span className="text-accent">Felix Mintah</span>
 						</h1>
-						<p className="max-w-[900px] mb-9 text-white/80">
+						<p className="max-w-[900px] mb-9 text-[#ffffff]">
 							With deep expertise in transformational leadership, stakeholder
 							management, and data analysis, I excel in optimizing operations
 							using advanced skills in Excel, Power BI, and VBA. My strong

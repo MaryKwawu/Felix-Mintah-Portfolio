@@ -6,20 +6,20 @@ import MobileNav from "./mobilenav";
 
 const Header = () => {
 	return (
-		<header className="py-8 xl:py-6 text-white">
-			<div className="container mx-auto flex justify-between items-center">
+		<header className="py-8 xl:py-4 text-[#b95231]">
+			<div className="container mx-auto flex justify-between">
 				<div className="hidden xl:flex items-center gap-8">
 					<Nav />
 				</div>
 				{/* logo */}
 				<Link href="/">
-					<h1 className="text-4xl font-semibold">
+					<h1 className="text-4xl font-semibold text-[#b95231]">
 						{" "}
-						<span className="text-accent">.</span>Felix Mintah
+						<span className="text-[#e9e1cf]">.</span>Felix Mintah
 					</h1>
 				</Link>
 				{/* desktop nav & contact me button */}
-				<div className="hidden xl:flex items-center gap-8">
+				<div className="hidden xl:flex items-center gap-8 text-[#b95231]">
 					<Link href="/contact">
 						<Button>Chat me</Button>
 					</Link>
