@@ -28,12 +28,12 @@ const Photo = () => {
 						priority
 						quality={100}
 						fill
-						className="rounded-full object-contain"
+						className="rounded-full object-cover"
 					/>
 				</motion.div>
 				{/* circle */}
 				<motion.svg
-					className="w-[306px] xl:w-[306px] h-[306px] xl:h-[306px]"
+					className="w-[360px] h-[360px] xl:w-[360px] xl:h-[360px]"
 					fill="transparent"
 					viewBox="0 0 506 506"
 					xmlns="http://www.w3.org/2000/svg">

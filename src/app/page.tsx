@@ -7,9 +7,9 @@ import Stats from "@/components/ui/stats";
 
 export default function Home() {
 	return (
-		<section className="h-full">
+		<section className="h-full flex flex-col justify-between">
 			<div className="container mx-auto h-full">
-				<div className="flex flex-col xl:flex-row items-center justify-between xl:pt-0 xl:pb-10">
+				<div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
 					{/* text */}
 					<div className="text-center xl:text-left order-2 xl:order-none">
 						<span className="text-xl text-[#ffffff]">
@@ -18,7 +18,7 @@ export default function Home() {
 						<h1 className="h1 mb-6 text-[#ffffff]">
 							Hello I'm <br /> <span className="text-accent">Felix Mintah</span>
 						</h1>
-						<p className="max-w-[900px] mb-9 text-[#ffffff]">
+						<p className="max-w-[800px] mb-9 text-[#ffffff]">
 							With deep expertise in transformational leadership, stakeholder
 							management, and data analysis, I excel in optimizing operations
 							using advanced skills in Excel, Power BI, and VBA. My strong
@@ -48,7 +48,9 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<Stats />
+			<div className="mt-auto">
+				<Stats />
+			</div>
 		</section>
 	);
 }
