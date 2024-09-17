@@ -13,7 +13,7 @@ export default function Home() {
 					{/* text */}
 					<div className="text-center xl:text-left order-2 xl:order-none">
 						<span className="text-xl text-[#ffffff]">
-							Customer Develpment IT Manager
+							Customer Development IT Manager
 						</span>
 						<h1 className="h1 mb-6 text-[#ffffff]">
 							Hello I'm <br /> <span className="text-accent">Felix Mintah</span>
@@ -30,7 +30,8 @@ export default function Home() {
 							<Button
 								variant="outline"
 								size="lg"
-								className="uppercase flex items-center gap-2">
+								className="uppercase flex items-center gap-2"
+							>
 								<span>Download CV</span>
 								<FiDownload className="text-xl" />
 							</Button>
