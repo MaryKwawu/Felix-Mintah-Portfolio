@@ -42,7 +42,7 @@ const MobileNav = () => {
 			</SheetTrigger>
 			<SheetContent className="flex flex-col">
 				{/* logo */}
-				<div className="mt-32 mb-40 text-center text-2xl text-[#e9e1cf]">
+				<div className="mt-32 mb-40 text-center text-2xl text-[#b95231]">
 					<Link href={"/"}>
 						<h1 className="text-4xl font-semibold">
 							{" "}
@@ -60,7 +60,8 @@ const MobileNav = () => {
 									className={`${
 										link.path === pathname &&
 										"text-accent border-b-2 border-accent"
-									}text-xl capitalize hover:text-accent transition-all`}>
+									}text-xl capitalize hover:text-accent transition-all`}
+								>
 									{link.name}
 								</Link>
 							</div>

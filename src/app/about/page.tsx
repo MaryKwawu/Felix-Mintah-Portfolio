@@ -2,13 +2,6 @@
 import { Description } from "@radix-ui/react-dialog";
 import React from "react";
 
-import {
-	SiPowerbi,
-	SiMicrosoftexcel,
-	SiVisualbasic,
-	SiPowerapps,
-	SiGoogleanalytics,
-} from "react-icons/si";
 
 //about data
 const personalDetails = [
@@ -172,7 +165,17 @@ const About = () => {
 					<div className="min-h-[70vh] w-full">
 						{/* personal details */}
 						<TabsContent value="personal details" className="w-full">
-							personal details
+							<div>
+								<h3>{personalDetails.}</h3>
+							</div>
+						</TabsContent>
+						{/* experience */}
+						<TabsContent value="experience" className="w-full">
+							<h3></h3>
+						</TabsContent>
+						{/* education */}
+						<TabsContent value="education" className="w-full">
+							education
 						</TabsContent>
 					</div>
 				</Tabs>
