@@ -91,7 +91,7 @@ const education = {
 	title: "My education",
 	Description:
 		"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolorem provident rerum",
-	item: [
+	items: [
 		{
 			institution: "Accra Technical University",
 			degree: "Bachelor of Technology in Mechanical Engineering",
@@ -227,13 +227,13 @@ const About = () => {
 						{/* education */}
 						<TabsContent value="education" className="w-full">
 							<div className="flex flex-col gap-[30px] text-center xl:text-left">
-								<h3 className="text-4xl font-bold">{experience.title}</h3>
+								<h3 className="text-4xl font-bold">{education.title}</h3>
 								<p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-									{experience.Description}
+									{education.Description}
 								</p>
 								<ScrollArea className="h-[400px]">
 									<ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
-										{experience.items.map((Item, index) => {
+										{education.items.map((Item, index) => {
 											return (
 												<div
 													key={index}
@@ -241,15 +241,17 @@ const About = () => {
 												>
 													<li>
 														<span className="text-accent">{Item.duration}</span>
-														<h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
-															{Item.position}
+														<h3 className="text-xl max-w-[360px] min-h-[60px] text-center lg:text-left">
+															{Item.degree}
 														</h3>
 														<div className="flex items-center gap-3">
 															{/* dot */}
 															<span className="w-[6px] h-[6px] rounded-full bg-accent">
 																{}
 															</span>
-															<p className="text-white/60">{Item.company}</p>
+															<p className="text-white/60">
+																{Item.institution}
+															</p>
 														</div>
 													</li>
 												</div>
@@ -257,6 +259,7 @@ const About = () => {
 										})}
 									</ul>
 								</ScrollArea>
+							</div>
 						</TabsContent>
 					</div>
 				</Tabs>
