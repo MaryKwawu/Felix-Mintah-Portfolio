@@ -65,7 +65,7 @@ const experience = {
 		},
 		{
 			company: "Unilever",
-			position: "Management Informationn Specialis",
+			position: "Management Informationn Specialist",
 			duration: "July 2020 - Sep 2021",
 		},
 		{
@@ -206,7 +206,7 @@ const About = () => {
 												>
 													<li>
 														<span className="text-accent">{Item.duration}</span>
-														<h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+														<h3 className="text-xl max-w-[360px] min-h-[60px] text-center lg:text-left">
 															{Item.position}
 														</h3>
 														<div className="flex items-center gap-3">
