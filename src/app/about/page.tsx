@@ -141,7 +141,6 @@ import {
 
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
-import { Item } from "@radix-ui/react-select";
 
 const About = () => {
 	return (
